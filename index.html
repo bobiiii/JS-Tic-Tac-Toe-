@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+    <title>Tic tac Toe</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <h3>Tic Tac Toe</h3>
+      </div>
+      <div class="content">
+        <div class="container">
+          <div class="game-grid">
+            <input
+              type="text"
+              id="check1"
+              onclick="validate_1(); checkFunc(); "
+              readonly
+            />
+            <input
+              type="text"
+              id="check2"
+              onclick="validate_2(); checkFunc(); "
+              readonly
+            />
+            <input
+              type="text"
+              id="check3"
+              onclick="validate_3(); checkFunc(); "
+              readonly
+            />
+            <input
+              type="text"
+              id="check4"
+              onclick="validate_4(); checkFunc(); "
+              readonly
+            />
+            <input
+              type="text"
+              id="check5"
+              onclick="validate_5(); checkFunc(); "
+              readonly
+            />
+            <input
+              type="text"
+              id="check6"
+              onclick="validate_6(); checkFunc(); "
+              readonly
+            />
+            <input
+              type="text"
+              id="check7"
+              onclick="validate_7(); checkFunc(); "
+              readonly
+            />
+            <input
+              type="text"
+              id="check8"
+              onclick="validate_8(); checkFunc(); "
+              readonly
+            />
+            <input
+              type="text"
+              id="check9"
+              onclick="validate_9(); checkFunc(); "
+              readonly
+            />
+          </div>
+
+          <h3 id="winner" value="">Player X Turn</h3>
+          <button class="resetbtn" onclick="Reset()">RESET</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
